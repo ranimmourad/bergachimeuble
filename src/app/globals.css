@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-sans: "Poppins", system-ui, -apple-system, sans-serif;
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #faf8f5;
+  color: #2b2b2b;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+@layer components {
+  .container-bm {
+    @apply mx-auto w-full max-w-container px-5 sm:px-8;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-primary px-7 py-3 text-sm font-medium tracking-wide text-white transition-colors duration-300 hover:bg-secondary;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border border-primary px-7 py-3 text-sm font-medium tracking-wide text-primary transition-colors duration-300 hover:bg-primary hover:text-white;
+  }
+
+  .heading-serif {
+    @apply font-serif font-medium tracking-tight text-ink;
+  }
+
+  .section {
+    @apply py-16 sm:py-20;
+  }
+}
+
+/* thin scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #d8cdbf;
+  border-radius: 999px;
+}
+::-webkit-scrollbar-track {
+  background: #f3eee8;
+}
