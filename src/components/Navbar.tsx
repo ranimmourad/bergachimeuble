@@ -15,16 +15,56 @@ const LINKS = [
 export default function Navbar() {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
+  const [hidden, setHidden] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
     setOpen(false);
   }, [pathname]);
 
+  // Smart show/hide navbar: hide on scroll down, reveal on scroll up
+  useEffect(() => {
+    let lastY = window.scrollY;
+    let ticking = false;
+
+    const update = () => {
+      const currentY = window.scrollY;
+      const delta = currentY - lastY;
+
+      setScrolled(currentY > 8);
+
+      // Ignore tiny scroll jitters; never hide while the mobile menu is open
+      if (Math.abs(delta) > 6) {
+        if (delta > 0 && currentY > 96 && !open) {
+          setHidden(true);
+        } else if (delta < 0) {
+          setHidden(false);
+        }
+        lastY = currentY;
+      }
+      ticking = false;
+    };
+
+    const onScroll = () => {
+      if (!ticking) {
+        window.requestAnimationFrame(update);
+        ticking = true;
+      }
+    };
+
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, [open]);
+
   const isActive = (href: string) =>
     href === "/" ? pathname === "/" : pathname?.startsWith(href);
 
   return (
-    <header className="sticky top-0 z-50 bg-navbar">
+    <header
+      className={`sticky top-0 z-50 bg-navbar transition-transform duration-300 ease-out ${
+        hidden ? "-translate-y-full" : "translate-y-0"
+      } ${scrolled ? "shadow-sm" : ""}`}
+    >
       <nav className="container-bm flex h-20 items-center justify-between">
         <Link href="/" className="flex items-center gap-2" aria-label="Bergachi Meubles - Accueil">
           <Image

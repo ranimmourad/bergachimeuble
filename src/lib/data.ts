@@ -51,7 +51,7 @@ export const PRODUCTS: Product[] = [
       { label: "Couleur", value: "Crème / Noyer" },
       { label: "Configuration", value: "Angle modulable" },
     ],
-    images: ["/products/salon-corner-cream.jpg", "/products/salon-u-cream-room.jpg"],
+    images: ["/products/salon-corner-cream.jpg"],
   },
   {
     id: "p-salon-02",
@@ -68,7 +68,7 @@ export const PRODUCTS: Product[] = [
       { label: "Couleur", value: "Gris naturel" },
       { label: "Configuration", value: "Modulable en U" },
     ],
-    images: ["/products/salon-modular-grey.jpg", "/products/salon-modular-detail.jpg", "/products/salon-living-set.jpg"],
+    images: ["/products/salon-modular-grey.jpg"],
   },
   {
     id: "p-salon-03",
@@ -84,7 +84,7 @@ export const PRODUCTS: Product[] = [
       { label: "Couleur", value: "Marron / Crème" },
       { label: "Configuration", value: "3 + 2 places" },
     ],
-    images: ["/products/salon-brown-leather.jpg", "/products/showroom-chesterfield.jpg"],
+    images: ["/products/salon-brown-leather.jpg"],
   },
   {
     id: "p-salon-04",
@@ -100,7 +100,7 @@ export const PRODUCTS: Product[] = [
       { label: "Couleur", value: "Beige / Camel" },
       { label: "Configuration", value: "Angle" },
     ],
-    images: ["/products/salon-beige-leather.jpg", "/products/salon-u-shape-tech.jpg"],
+    images: ["/products/salon-beige-leather.jpg"],
   },
   {
     id: "p-salon-05",
@@ -116,7 +116,7 @@ export const PRODUCTS: Product[] = [
       { label: "Couleur", value: "Beige chiné" },
       { label: "Configuration", value: "Angle" },
     ],
-    images: ["/products/salon-corner-textured.jpg", "/products/armchair-detail.jpg"],
+    images: ["/products/salon-corner-textured.jpg"],
   },
   {
     id: "p-salon-06",
@@ -133,7 +133,7 @@ export const PRODUCTS: Product[] = [
       { label: "Couleur", value: "Crème" },
       { label: "Configuration", value: "Angle modulable" },
     ],
-    images: ["/products/salon-corner-modern.jpg", "/products/showroom-salons.jpg"],
+    images: ["/products/salon-corner-modern.jpg"],
   },
 
   // ---- CHAMBRES ----
@@ -152,7 +152,7 @@ export const PRODUCTS: Product[] = [
       { label: "Couleur", value: "Crème / Noyer" },
       { label: "Éclairage", value: "LED intégré" },
     ],
-    images: ["/products/bedroom-illuminated-headboard.jpg", "/products/bedroom-wardrobe-vanity.jpg"],
+    images: ["/products/bedroom-illuminated-headboard.jpg"],
   },
   {
     id: "p-chambre-02",
@@ -168,7 +168,7 @@ export const PRODUCTS: Product[] = [
       { label: "Couleur", value: "Blanc / Noyer" },
       { label: "Miroir", value: "Rond rétroéclairé" },
     ],
-    images: ["/products/bedroom-wardrobe-vanity.jpg", "/products/bedroom-illuminated-headboard.jpg"],
+    images: ["/products/bedroom-wardrobe-vanity.jpg"],
   },
 
   // ---- SALLES A MANGER ----
@@ -187,7 +187,7 @@ export const PRODUCTS: Product[] = [
       { label: "Chaises", value: "6 chaises bouclé" },
       { label: "Forme", value: "Rectangulaire" },
     ],
-    images: ["/products/dining-walnut-glass-set.jpg", "/products/dining-oval-walnut-glass.jpg", "/products/showroom-dining.jpg"],
+    images: ["/products/dining-walnut-glass-set.jpg"],
   },
   {
     id: "p-sam-02",
@@ -204,7 +204,7 @@ export const PRODUCTS: Product[] = [
       { label: "Chaises", value: "6 chaises bouclé" },
       { label: "Forme", value: "Rectangulaire" },
     ],
-    images: ["/products/dining-cream-glass.jpg", "/products/dining-set-white-beige.jpg", "/products/dining-boucle-chairs.jpg"],
+    images: ["/products/dining-cream-glass.jpg"],
   },
   {
     id: "p-sam-03",
@@ -220,7 +220,7 @@ export const PRODUCTS: Product[] = [
       { label: "Chaises", value: "6 chaises velours" },
       { label: "Forme", value: "Ovale" },
     ],
-    images: ["/products/dining-marble-gold.jpg", "/products/dining-marble-gold-set.jpg"],
+    images: ["/products/dining-marble-gold.jpg"],
   },
   {
     id: "p-sam-04",
@@ -236,7 +236,7 @@ export const PRODUCTS: Product[] = [
       { label: "Chaises", value: "4 fauteuils" },
       { label: "Forme", value: "Ronde" },
     ],
-    images: ["/products/dining-round-marble-oak.jpg", "/products/dining-round-walnut.jpg"],
+    images: ["/products/dining-round-marble-oak.jpg"],
   },
   {
     id: "p-sam-05",
@@ -252,7 +252,7 @@ export const PRODUCTS: Product[] = [
       { label: "Chaises", value: "Fauteuils crème" },
       { label: "Forme", value: "Rectangulaire" },
     ],
-    images: ["/products/dining-wood-table.jpg", "/products/dining-walnut-room.jpg"],
+    images: ["/products/dining-wood-table.jpg"],
   },
   {
     id: "p-sam-06",
@@ -268,7 +268,7 @@ export const PRODUCTS: Product[] = [
       { label: "Chaises", value: "4 chaises bouclé" },
       { label: "Forme", value: "Ronde" },
     ],
-    images: ["/products/round-glass-table.jpg", "/products/dining-round-black-set.jpg", "/products/dining-round-grey-set.jpg"],
+    images: ["/products/round-glass-table.jpg"],
   },
   {
     id: "p-sam-07",
@@ -284,7 +284,7 @@ export const PRODUCTS: Product[] = [
       { label: "Chaises", value: "6 fauteuils bouclé" },
       { label: "Forme", value: "Rectangulaire" },
     ],
-    images: ["/products/dining-black-glass.jpg", "/products/dining-black-oval.jpg"],
+    images: ["/products/dining-black-glass.jpg"],
   },
 
   // ---- DECORATION ----
@@ -319,7 +319,7 @@ export const PRODUCTS: Product[] = [
       { label: "Rangement", value: "Étagères + tiroirs" },
       { label: "Couleur", value: "Blanc / Noyer" },
     ],
-    images: ["/products/vitrine-cabinet.jpg", "/products/buffet-white-mirror.jpg"],
+    images: ["/products/vitrine-cabinet.jpg"],
   },
   {
     id: "p-deco-03",
@@ -336,7 +336,7 @@ export const PRODUCTS: Product[] = [
       { label: "Rangement", value: "Tiroir intégré" },
       { label: "Couleur", value: "Noyer / Crème" },
     ],
-    images: ["/products/coffee-table-oval.jpg", "/products/salon-coffee-table.jpg"],
+    images: ["/products/coffee-table-oval.jpg"],
   },
   {
     id: "p-deco-04",
@@ -352,7 +352,7 @@ export const PRODUCTS: Product[] = [
       { label: "Miroir", value: "Forme organique" },
       { label: "Couleur", value: "Blanc / Noir" },
     ],
-    images: ["/products/buffet-white-mirror.jpg", "/products/vitrine-cabinet.jpg"],
+    images: ["/products/buffet-white-mirror.jpg"],
   },
 ];
 

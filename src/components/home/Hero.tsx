@@ -13,6 +13,7 @@ export default function Hero() {
           alt="Showroom Bergachi Meubles"
           fill
           priority
+          quality={90}
           sizes="100vw"
           className="object-cover"
         />
