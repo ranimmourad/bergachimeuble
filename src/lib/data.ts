@@ -5,7 +5,7 @@ export const CATEGORIES: Category[] = [
     slug: "salons",
     name: "Salons",
     description: "Canapés d'angle, salons modulables et fauteuils confortables.",
-    image: "/products/salon-corner-cream.jpg",
+    image: "/products/salon-modular-grey.jpg",
   },
   {
     slug: "chambres",
@@ -23,7 +23,7 @@ export const CATEGORIES: Category[] = [
     slug: "decoration",
     name: "Décoration",
     description: "Miroirs, vitrines, buffets et tables basses.",
-    image: "/products/mirrors-walnut.jpg",
+    image: "/products/buffet-white-mirror.jpg", // <--- Changed this line
   },
 ];
 
