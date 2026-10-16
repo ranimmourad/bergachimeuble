@@ -166,7 +166,7 @@ export const PRODUCTS: Product[] = [
       { label: "Configuration", value: "Complet" },
       { label: "Confort", value: "Coussins moelleux" },
     ],
-    images: ["/products/Capitonnée.jpeg"],
+    images: ["/products/Capitonnee.jpeg"],
   },
   {
     id: "p-salon-09",
@@ -465,9 +465,9 @@ export const PRODUCTS: Product[] = [
       { label: "Places", value: "Grande tablée" },
     ],
     images: [
-      "/products/Table géant.jpeg",
-      "/products/Table géant 1.jpeg",
-      "/products/Table géant marron.jpeg",
+      "/products/Table geant.jpeg",
+      "/products/Table geant 1.jpeg",
+      "/products/Table geant marron.jpeg",
     ],
   },
   {
