@@ -23,7 +23,7 @@ export const CATEGORIES: Category[] = [
     slug: "decoration",
     name: "Décoration",
     description: "Miroirs, vitrines, buffets et tables basses.",
-    image: "/products/buffet-white-mirror.jpg", // <--- Changed this line
+    image: "/products/buffet-white-mirror.jpg",
   },
 ];
 
@@ -135,6 +135,136 @@ export const PRODUCTS: Product[] = [
     ],
     images: ["/products/salon-corner-modern.jpg"],
   },
+  {
+    id: "p-salon-07",
+    slug: "salon-arabesque",
+    name: "Salon Arabesque",
+    category: "salons",
+    createdAt: "2024-12-02",
+    description:
+      "Salon au design arabesque, mêlant motifs géométriques et matières nobles pour une ambiance orientale raffinée. Pièce maîtresse qui apporte chaleur et caractère à votre salon.",
+    specs: [
+      { label: "Matière", value: "Tissu & bois sculpté" },
+      { label: "Style", value: "Arabesque oriental" },
+      { label: "Configuration", value: "Complet" },
+      { label: "Couleur", value: "Tons chauds" },
+    ],
+    images: ["/products/Arabesque.jpeg"],
+  },
+  {
+    id: "p-salon-08",
+    slug: "salon-capitonne",
+    name: "Salon Capitonné",
+    category: "salons",
+    featured: true,
+    createdAt: "2024-12-04",
+    description:
+      "Salon capitonné traditionnel aux finitions soignées, garnissage généreux et surpiquage élégant. Confort enveloppant et allure intemporelle pour un salon raffiné.",
+    specs: [
+      { label: "Matière", value: "Tissu capitonné" },
+      { label: "Finition", value: "Surpiquage soigné" },
+      { label: "Configuration", value: "Complet" },
+      { label: "Confort", value: "Coussins moelleux" },
+    ],
+    images: ["/products/Capitonnée.jpeg"],
+  },
+  {
+    id: "p-salon-09",
+    slug: "salon-coin-alliance",
+    name: "Salon Coin Alliance",
+    category: "salons",
+    createdAt: "2024-12-06",
+    description:
+      "Salon d'angle Alliance au design contemporain, optimisant l'espace avec une composition modulable. Assises profondes et lignes épurées pour un confort moderne au quotidien.",
+    specs: [
+      { label: "Matière", value: "Tissu & bois" },
+      { label: "Structure", value: "Bois massif" },
+      { label: "Configuration", value: "Angle modulable" },
+      { label: "Couleur", value: "Tons neutres" },
+    ],
+    images: ["/products/coin alliance.jpeg"],
+  },
+  {
+    id: "p-salon-10",
+    slug: "salon-coin-yasmine",
+    name: "Salon Coin Yasmine",
+    category: "salons",
+    createdAt: "2024-12-08",
+    description:
+      "Salon d'angle Yasmine aux courbes douces et tissu chaleureux. Composition généreuse et accueillante, idéale pour partager des moments conviviaux en famille ou entre amis.",
+    specs: [
+      { label: "Matière", value: "Tissu chaleureux" },
+      { label: "Structure", value: "Bois" },
+      { label: "Configuration", value: "Angle" },
+      { label: "Confort", value: "Assises profondes" },
+    ],
+    images: ["/products/Coin yasmine.jpeg", "/products/Coin yasmine1.jpeg"],
+  },
+  {
+    id: "p-salon-11",
+    slug: "salon-cap",
+    name: "Salon Cap",
+    category: "salons",
+    createdAt: "2024-12-10",
+    description:
+      "Salon Cap au caractère affirmé, assises moelleuses et structure robuste. Élégance discrète et confort durable pour un salon qui traverse les saisons avec prestance.",
+    specs: [
+      { label: "Matière", value: "Tissu & bois" },
+      { label: "Structure", value: "Bois massif" },
+      { label: "Configuration", value: "Complet" },
+      { label: "Confort", value: "Assises moelleuses" },
+    ],
+    images: ["/products/salon cap.jpeg", "/products/salon cap1.jpeg"],
+  },
+  {
+    id: "p-salon-12",
+    slug: "salon-marocain",
+    name: "Salon Marocain",
+    category: "salons",
+    featured: true,
+    createdAt: "2024-12-12",
+    description:
+      "Salon marocain traditionnel aux motifs richement ouvragés, bois sculpté et coussins généreux. Authentique pièce hérititaire qui célèbre l'artisanat local et apporte une âme à votre intérieur.",
+    specs: [
+      { label: "Matière", value: "Bois sculpté & tissu" },
+      { label: "Style", value: "Marocain traditionnel" },
+      { label: "Configuration", value: "Complet" },
+      { label: "Finition", value: "Motifs ouvragés" },
+    ],
+    images: ["/products/Salon marocain.jpeg", "/products/Salon marocain 1.jpeg"],
+  },
+  {
+    id: "p-salon-13",
+    slug: "salon-rameda-6-places-avec-table",
+    name: "Salon Rameda 6 Places avec Table",
+    category: "salons",
+    createdAt: "2024-12-14",
+    description:
+      "Ensemble salon Rameda 6 places avec table assortie. Composition complète et conviviale, parfaite pour recevoir vos invités avec élégance, confort et chaleur autour d'un thé ou d'un repas.",
+    specs: [
+      { label: "Composition", value: "6 places + table" },
+      { label: "Matière", value: "Bois & tissu" },
+      { label: "Configuration", value: "Ensemble complet" },
+      { label: "Convivialité", value: "Grande tablée" },
+    ],
+    images: ["/products/salon rameda 6 places avec table.jpeg"],
+  },
+  {
+    id: "p-salon-14",
+    slug: "salon-mariem",
+    name: "Salon Mariem",
+    category: "salons",
+    createdAt: "2024-12-16",
+    description:
+      "Salon Mariem au design élégant et intemporel, assises confortables et finitions soignées. Une pièce centrale chaleureuse qui s'intègre harmonieusement à tous les styles d'intérieur.",
+    specs: [
+      { label: "Matière", value: "Tissu & bois" },
+      { label: "Structure", value: "Bois massif" },
+      { label: "Configuration", value: "Complet" },
+      { label: "Couleur", value: "Tons neutres" },
+    ],
+    images: ["/products/salonmariem.jpeg"],
+  },
 
   // ---- CHAMBRES ----
   {
@@ -169,6 +299,39 @@ export const PRODUCTS: Product[] = [
       { label: "Miroir", value: "Rond rétroéclairé" },
     ],
     images: ["/products/bedroom-wardrobe-vanity.jpg"],
+  },
+  {
+    id: "p-chambre-03",
+    slug: "chambre-azmir",
+    name: "Chambre Azmir",
+    category: "chambres",
+    createdAt: "2024-12-05",
+    description:
+      "Ensemble chambre Azmir complet, mêlant bois noble et tissus raffinés pour une chambre à coucher élégante et fonctionnelle. Composition harmonieuse au caractère affirmé, propice au repos.",
+    specs: [
+      { label: "Composition", value: "Lit + armoire + coiffeuse" },
+      { label: "Matière", value: "Bois & tissu" },
+      { label: "Couleur", value: "Tons chauds" },
+      { label: "Style", value: "Contemporain" },
+    ],
+    images: ["/products/chambreAzmir.jpeg"],
+  },
+  {
+    id: "p-chambre-04",
+    slug: "chambre-verona",
+    name: "Chambre Verona",
+    category: "chambres",
+    featured: true,
+    createdAt: "2024-12-09",
+    description:
+      "Chambre Verona au style contemporain, lignes épurées et finitions haut de gamme. Une ambiance raffinée et apaisante qui invite au repos et offre des nuits réparatrices.",
+    specs: [
+      { label: "Composition", value: "Lit + rangements" },
+      { label: "Matière", value: "Bois noble" },
+      { label: "Couleur", value: "Tons clairs" },
+      { label: "Style", value: "Contemporain" },
+    ],
+    images: ["/products/chambreVerona.jpeg"],
   },
 
   // ---- SALLES A MANGER ----
@@ -285,6 +448,43 @@ export const PRODUCTS: Product[] = [
       { label: "Forme", value: "Rectangulaire" },
     ],
     images: ["/products/dining-black-glass.jpg"],
+  },
+  {
+    id: "p-sam-08",
+    slug: "table-geant",
+    name: "Table Géant",
+    category: "salles-a-manger",
+    featured: true,
+    createdAt: "2024-12-07",
+    description:
+      "Table géante généreuse, idéale pour les grandes tablées familiales et les repas de fête. Plateau spacieux et structure robuste pour accueillir vos invités dans un cadre convivial et chaleureux.",
+    specs: [
+      { label: "Plateau", value: "Spacieux" },
+      { label: "Structure", value: "Bois massif" },
+      { label: "Forme", value: "Rectangulaire" },
+      { label: "Places", value: "Grande tablée" },
+    ],
+    images: [
+      "/products/Table géant.jpeg",
+      "/products/Table géant 1.jpeg",
+      "/products/Table géant marron.jpeg",
+    ],
+  },
+  {
+    id: "p-sam-09",
+    slug: "table-rameda",
+    name: "Table Rameda",
+    category: "salles-a-manger",
+    createdAt: "2024-12-11",
+    description:
+      "Table Rameda au design intemporel, plateau spacieux et piètement robuste. Une pièce maîtresse pour vos repas conviviaux au quotidien, alliant élégance discrète et fonctionnalité durable.",
+    specs: [
+      { label: "Plateau", value: "Bois noble" },
+      { label: "Structure", value: "Bois massif" },
+      { label: "Forme", value: "Rectangulaire" },
+      { label: "Places", value: "6 places" },
+    ],
+    images: ["/products/Table rameda.jpeg", "/products/Table rameda 1.jpeg"],
   },
 
   // ---- DECORATION ----
